@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    color: white;
+    
+    
+}
+h1,h2,h3,h4,h5,p{
+    color: white;
+}
+.nav-link {
+    position: relative;
+    color: white;
+    padding: 0 20px;
+    transition: 0.3s;
+    width: 5.2rem;
+}
+.nav-link:hover{
+    color: coral;
+}
+.nav-link::after{
+    content: "";
+    width:0%;
+    height: 2px;
+    background-color: coral;
+    left: 2px;
+    bottom: 1px;
+    position: absolute;
+    transition: width 0.3s;
+}
+.nav-link:hover::after{
+    
+    width: 58%;
+}
+
+
+
+
+.navbar{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    
+   
+
+}
+.navbar-toggler{
+    border: 1px solid black;
+    color: aliceblue;
+}
+#menu{
+    padding: 5px;
+}
+@media only screen and (max-width:991px) {
+    .navbar-toggler{
+        background-color: coral;
+    }
+    .navbar-toggler:hover{
+        background-color: coral;
+    }
+    #home{
+        width: 100%;
+        height: 100vh;
+        
+    }
+    #navbarSupportedContent{
+        background-color: hsla(0,0%,0%,0.3) ;
+        padding: 1rem;
+        backdrop-filter: blur(24px);
+        
+
+    }
+    .conabt{
+        
+        margin-left: 10rem;
+        bottom: 2rem;
+    }
+    
+}
+#home{
+    background-image: url(home-bg.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+   
+
+}
+.con1{
+    margin-top: 17px;
+}
+.tra{
+    transition: 0.3s all;
+}
+.tra:hover{
+    color: coral;
+    cursor: pointer;
+
+}
+.p1{
+    width:250px;
+    height: 150px;
+    box-shadow: 10px 10px 10px rgb(53, 52, 52);
+    transition: .5s all;
+}
+.conimg:hover{
+    transform: scale(1.2);
+}
+.p2
+{
+    width:250px;
+    height: 150px;
+}
+.con{
+    margin-left: 2;
+}
+#about1{
+    margin-top: 1.3rem;
+  margin-left: 1rem;
+ 
+}
+.bg{
+    background-color: black;
+}
+.conabt{
+    
+    margin-left: 10rem;
+    bottom: 2rem;
+    
+}
+.conimg{
+    margin-bottom: 3rem;
+    position: relative;
+    transition: 0.3s all;
+    
+    
+}
+.imginfo{
+    color: white;
+    position: absolute;
+    
+    width: 80%;
+    bottom: 2px;
+    margin-left: 10px;
+   
+    
+    
+}
+
+.abt1{
+    color: white;
+    
+    position: relative;
+    margin-top:2rem ;
+}
+
+#about{
+    margin-top:2rem ;
+    margin-bottom: 5rem;
+}
+.abtp{
+    color: white;
+}
+.globe{
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    
+}
+.row1{
+    display: flex;
+    
+    width: 600px;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.grid2{
+    width: 11rem;
+   
+}
+.why{
+    
+}
+.imginf{
+    color: black;
+    position: absolute;
+    
+    width: 80%;
+    bottom: 2px;
+    margin-left: 10px;
+}
+#banner{
+    background-image: url(bg-1.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-attachment: fixed;
+    margin-bottom: 4rem;
+   
+
+}
+
+.footer{
+    background-color: rgb(58, 57, 57);
+    width: 100%;
+    height: 23vh;
+    text-align: center;
+}
+.section__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+}
+.scimg{
+    width: 2rem;
+    height: 2rem;
+
+}
